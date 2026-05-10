@@ -1,7 +1,7 @@
 LocationOfFriend = int(input())
 stepAtOnce = [1,2,3,4,5]
 step = 0
-if 1 < LocationOfFriend < 1000000:
+if 1 <= LocationOfFriend <= 1000000:
     while LocationOfFriend > 0:
 
             if LocationOfFriend >= stepAtOnce[4]:
