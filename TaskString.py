@@ -1,11 +1,11 @@
 petys_input = input().lower()
 
-vowels = "aeiou"
+vowels_withY = "aeiouy"
 
 result = ""
 
 for char in petys_input:
-    if char not in vowels:
+    if char not in vowels_withY:
         result += "." + char
 
 print(result)
