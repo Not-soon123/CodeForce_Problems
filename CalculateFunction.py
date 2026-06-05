@@ -1,10 +1,5 @@
 num = int(input())
-count = 0
-for i in range(1, num+1):
-    print(i)
-    if i % 2 == 0:
-        count += i
-    elif i % 2 != 0:
-        count -= i
-
-print(count)
+if num % 2 == 0:
+    print(num//2)
+else:
+    print(-(num+1)//2)
