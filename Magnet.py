@@ -1,5 +1,5 @@
 numMagnet = int(input())
-groupCounter = 0
+groupCounter = 1
 magnetArray = []
 for i in range(numMagnet):
     magnet = input()
