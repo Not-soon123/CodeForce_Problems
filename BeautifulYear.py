@@ -1,4 +1,4 @@
-inputYear = 1987
+inputYear = int(input())
 
 while len(str(inputYear)) <= 4:
     inputYear = inputYear + 1

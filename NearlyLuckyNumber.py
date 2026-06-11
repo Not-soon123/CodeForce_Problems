@@ -1,15 +1,12 @@
-number = "4477909898098"
+number = input()
 
 count = 0
 
-if set(number) == {'4', '7'}:
+for i in number:
+    if i == "4" or i == "7":
+        count += 1
+
+if set(str(count)) <= {'4', '7'} and count != 0:
     print("YES")
 else:
-    for i in number:
-        if i == "4" or i == "7":
-            count += 1
-
-    if count == 4 or count == 7:
-        print("YES")
-    else :
-            print("NO")
+    print("NO")

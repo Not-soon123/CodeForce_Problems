@@ -1,5 +1,5 @@
-s,w = [6,5]
-a = [7, 6, 8, 9, 10, 5]
+s,w = map(int, input().split())
+a = list(map(int, input().split()))
 count = 0
 
 for i in a:

@@ -14,7 +14,3 @@ if sum(x) == 0 and sum(y) == 0 and sum(z) == 0:
 else:    
     print("NO")
 
- #   3
-#0 2 -2
-#1 -1 3
-#-3 0 0
